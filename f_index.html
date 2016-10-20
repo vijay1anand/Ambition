@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title page</title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/fpr.css"/>
+    <style>
+        body{
+            background-image: url("css/back.jpg");
+        }
+        footer{
+            margin-top:14%;
+        }
+    </style>
+    <!--Let browser know website is optimized for mobile-->
+    </head>
+
+<body>
+<main>
+
+    <div class="row valign-wrapper">
+        <div class="col s9">
+            <a href="#"><img src="images/logos/logo_iiitv.png" width="80" height="80" class="circle responsive-img"> </a>
+            <a href="#"><img src="images/logos/da.jpg" width="80" height="80" class="circle responsive-img"> </a>
+            <a href="#"><img src="images/logos/gsfc.jpg" width="80" height="80" class="circle responsive-img"> </a>
+            <a href="#"><img src="images/logos/GERMI.jpg" width="80" height="80" class="circle responsive-img"> </a>
+            <a href="#"><img src="images/logos/TCS.jpg" width="80" height="80" class="circle responsive-img"> </a>
+        </div>
+        <div class="col s3">
+            <form>
+                <button class="waves-effect waves-light btn btn-sm z-depth-3">Login</button>
+                <!--<button class="waves-effect waves-light btn  purple lighten-1 z-depth-3">SignUp</button>-->
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="waves-effect waves-light btn lighten-1 z-depth-3">Sign up</button>
+
+
+                <a class="btn z-depth-3 waves-effect waves-light" href="menu.html">Menu<img src="images/logos/menu1.png"width="30" height="30"></a>
+
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+<div class="row">
+    <div class="col-xs-4">
+
+    </div>
+    <div class="col-xs-4">
+        <img src="images/front2.jpg" alt="ambition_logo" width="456" height="322">
+    </div>
+    <div class="col-xs-4">
+
+    </div>
+</div>
+
+
+</main>
+
+<footer class="blue-grey">
+            <button class="waves-effect waves-light btn btn-sm z-depth-3 right">IIITV Association</button>
+            <button class="waves-effect waves-light btn btn-sm z-depth-3 right">Contact us</button>
+            <button class="waves-effect waves-light btn btn-sm z-depth-3 right">Partners</button>
+            <button class="waves-effect waves-light btn btn-sm z-depth-3 right">Team</button>
+            <button class="waves-effect waves-light btn btn-sm z-depth-3 right">About us</button>
+           <!-- <a class="teal-text text-darken-1 right" href="#!"><h4>About us</h4></a>-->
+
+</footer>
+<?php
+		$username=$password=$phone_no=$email="";
+	if(isset($_POST['submit']))
+		{
+		$username=$_POST['username'];
+		$password=$_POST['password'];
+		$phone_no=$_POST['phone_no'];
+		$email=$_POST['email'];
+
+
+		}
+		?>
+
+<?php
+			$con= mysqli_connect("localhost","root","vishraman","hackathon");
+			if(mysqli_connect_errno())
+			{
+				die("datbase coonection failed" . mysqli_connect_error() );
+			}
+
+
+		?>
+<?php
+			$query="INSERT INTO signup (username,password,phoneno,email) VALUES ('$username','$password','$phone_no','$email')";
+			$result= mysqli_query($con,$query);
+		?>
+
+<?php
+			mysqli_close($con);
+		?>
+</body>
+
+
+</html>

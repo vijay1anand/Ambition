@@ -1,0 +1,1392 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* line 6, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'dobra', 'Open sans';
+}
+
+/* line 7, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.head_logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* line 14, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-center-text {
+  text-align: center;
+}
+
+/* line 15, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-center-text h1 {
+  font-size: 45px;
+  color: #6d6e71;
+  font-family: dobra;
+}
+
+/* line 16, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-image {
+  width: 225px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* line 17, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-image-narrow {
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+  float: left;
+}
+
+/* line 18, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-circle-1 {
+  stroke-width: 2;
+  stroke: #343434;
+}
+
+/* line 19, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-margin-top {
+  margin-top: 25px;
+}
+
+/* line 20, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-full-page {
+  padding-top: 75px;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 21, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about-svg-container {
+  width: 485px;
+  margin: 0 auto;
+}
+
+/* line 22, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_svg {
+  position: relative;
+  left: -143px;
+  top: 35px;
+  width: 300px;
+  height: 300px;
+  z-index: -1;
+  float: left;
+}
+
+/* line 23, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_svg svg {
+  height: 100%;
+}
+
+/* line 24, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-desc {
+  color: gray;
+  font-size: 18px;
+  color: #58595b;
+  margin-top: 50px;
+}
+
+/* line 25, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-padding-mdm {
+  padding: 50px;
+}
+
+/* line 26, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-img-div img#about_axis {
+  width: 490px;
+  display: block;
+  margin: 25px auto;
+}
+
+/* line 27, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_followers {
+  background: url("about/about%20us-06.html") no-repeat center;
+  height: 310px;
+  margin-top: 40px;
+}
+
+/* line 28, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_followers h1 {
+  position: relative;
+  top: 100px;
+  color: #808285;
+}
+
+/* line 29, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-padding {
+  padding-top: 5%;
+}
+
+/* line 30, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_graph div {
+  position: absolute;
+  top: 125px;
+  left: 95px;
+}
+
+/* line 31, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_graph div img {
+  position: absolute;
+  display: none;
+}
+
+/* line 32, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_point1 {
+  top: 172px;
+  left: 45px;
+}
+
+/* line 33, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_point2 {
+  top: 112px;
+  left: 105px;
+}
+
+/* line 34, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_point3 {
+  top: 62px;
+  left: 185px;
+}
+
+/* line 35, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_point4 {
+  top: -8px;
+  left: 245px;
+}
+
+/* line 36, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_graph svg {
+  width: 0px;
+  height: 230px;
+}
+
+/* line 37, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_graph line {
+  stroke: #f7941e;
+  stroke-width: 1.5px;
+}
+
+/* line 38, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_tieups {
+  background-color: rgba(39, 170, 225, 0.8);
+  position: relative;
+  right: -50%;
+}
+
+/* line 39, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_foot {
+  background-color: rgba(247, 148, 30, 0.8);
+  position: relative;
+  left: -50%;
+}
+
+/* line 40, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_foot h1, #about_tieups h1 {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 15px;
+}
+
+/* line 41, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_dept div {
+  border-bottom: 2px solid #27aae1;
+  padding: 0;
+}
+
+/* line 42, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_dept h1 {
+  font-size: 35px;
+}
+
+/* line 43, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_events {
+  position: relative;
+  width: 100px;
+  margin: 100px auto;
+}
+
+/* line 44, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_events img {
+  width: 200px;
+}
+
+/* line 45, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_events img#about_e2 {
+  position: absolute;
+  top: -13px;
+  left: -23px;
+}
+
+/* line 46, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_events h1 {
+  position: relative;
+  font-size: 60px;
+  top: -61px;
+  left: -132px;
+  color: #6d6e71;
+  font-family: dobra;
+}
+
+/* line 47, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_wne h1 {
+  font-size: 70px;
+  color: #343434;
+  border-bottom: 2px solid gray;
+  width: 350px;
+}
+
+/* line 48, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_ex h1 {
+  text-align: right;
+}
+
+/* line 49, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+img#about_ex1 {
+  width: 250px;
+}
+
+/* line 50, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+img#about_ex2 {
+  top: 70px;
+  left: 115px;
+  display: none;
+}
+
+/* line 51, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+img#about_ex3 {
+  top: 130px;
+  left: 6px;
+}
+
+/* line 52, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+img#about_ex4 {
+  top: 130px;
+  left: 187px;
+}
+
+/* line 53, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+img#about_ex5 {
+  top: 51px;
+  left: 91px;
+  z-index: -2;
+  width: 100px;
+  display: none;
+}
+
+/* line 54, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+img#about_w1 {
+  width: 80px;
+  left: 30px;
+  top: 20px;
+}
+
+/* line 55, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+img#about_w2 {
+  width: 130px;
+  left: 77px;
+  top: 70px;
+}
+
+/* line 56, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+img#about_w3 {
+  width: 150px;
+  z-index: -2;
+}
+
+/* line 57, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_wne img {
+  position: absolute;
+}
+
+/* line 58, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-margin-100 {
+  margin-top: 125px;
+}
+
+@media (max-width: 350px) {
+  /* line 59, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+  .about-margin-100 {
+    margin-top: 5px;
+  }
+}
+/* line 60, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_ex h1, #about_ex h5 {
+  float: right;
+}
+
+/* line 61, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_wne h1, #about_wne h5 {
+  font-family: dobra;
+  color: #6d6e71;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+/* line 62, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_wne div.about-image {
+  position: absolute;
+  margin-left: 35px;
+}
+
+/* line 63, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_wne div.col-md-4 {
+  height: 200px;
+}
+
+/* line 64, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_exi_con {
+  margin-top: 50px;
+}
+
+/* line 65, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_e2 {
+  display: none;
+}
+
+/* line 66, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-smooth {
+  transition: 1s all;
+}
+
+/* line 67, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_title {
+  font-family: dobra;
+  color: #939598;
+  text-align: center;
+}
+
+/* line 68, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_title h1 {
+  font-size: 57px;
+  margin-top: 0;
+}
+
+/* line 69, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_cicle_1 {
+  opacity: .6;
+}
+
+/* line 70, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_svg img {
+  position: absolute;
+  top: -11px;
+  left: 135px;
+  width: 126px;
+  display: none;
+}
+
+/* line 71, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_followers span {
+  font-weight: bold;
+}
+
+/* line 72, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+div#about_buildbar {
+  height: 316px;
+  width: 100%;
+  overflow-y: hidden;
+  border-bottom: 0;
+}
+
+/* line 73, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_bar {
+  position: relative;
+  left: 4px;
+  top: -12px;
+  margin-top: 0;
+  width: 90%;
+}
+
+/* line 74, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#about_build {
+  margin-top: 150px;
+  position: relative;
+  top: 200px;
+  left: 30px;
+  width: 82%;
+  transition: 2s all;
+}
+
+/* line 76, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#hosp {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+/* line 77, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#hosp .hosp_container {
+  display: none;
+}
+
+/* line 78, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#hosp ul#button-list {
+  padding: 0;
+}
+
+/* line 79, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#hosp .hosp_gen {
+  display: block;
+}
+
+/* line 80, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#hosp_navigation {
+  height: 45px;
+  font-size: 20px;
+  padding-top: 7px;
+  background-color: #52B9E8;
+  color: white;
+  text-align: center;
+}
+
+/* line 81, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.sponsor_title {
+  font-size: 27px;
+  font-family: "dobra";
+  src: url(DOBRA-BOOK-1737aa225c1893c442190b40d42590a34395a9610f27711eef31bc15fcd4e0d3.OTF) format("truetype");
+  color: #27AAE1;
+  text-align: center;
+  margin-top: -40px;
+}
+
+/* line 90, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.center {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* line 95, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+hr.sponsors {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 19px;
+  background-image: url(spp/spp-hr-966f849b5c408bc7bb452eadbd0426dd1effc5affb4b50491ff6e8f8ef9dbe6c.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #f3f6db;
+  border: 0 none;
+  margin-top: -11px;
+}
+
+/* line 109, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.mainDiv {
+  margin-top: -30px !important;
+}
+
+/* line 113, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.content-wrapper {
+  display: none;
+}
+
+/* line 117, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.under-construction {
+  text-align: center;
+  font-family: dobra;
+  color: #6d6e71;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* About Us New Styles */
+/* line 127, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.intro-text {
+  padding: 100px;
+  padding-top: 150px;
+  font-size: 18px;
+  text-align: justify;
+  color: gray;
+}
+
+/* line 135, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-header {
+  color: orange;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+
+/* line 142, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.intro-image {
+  padding: 100px;
+  padding-top: 150px;
+}
+
+/* line 147, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.glimpses-title {
+  margin-top: 15px;
+  background-color: #333333;
+  height: 100px;
+}
+
+/* line 153, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.glimpses-title span {
+  margin-left: 40px;
+  font-size: 30px;
+  line-height: 100px;
+  color: #fff;
+}
+
+/* line 160, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.glimpses-social {
+  margin-top: 15px;
+  height: 100px;
+  background-color: #333333;
+}
+
+/* line 168, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.fb {
+  border-style: none;
+  border-bottom: 8px solid #3b5998;
+  transition: 0.7s all ease;
+}
+
+/* line 174, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.fb:hover {
+  border-bottom: 100px solid #3b5998;
+}
+
+/* line 178, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.gplus {
+  border-style: none;
+  border-bottom: 8px solid #d34836;
+  transition: 0.7s all ease;
+}
+
+/* line 184, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.gplus:hover {
+  border-bottom: 100px solid #d34836;
+}
+
+/* line 188, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.twitter {
+  border-style: none;
+  border-bottom: 8px solid #00aced;
+  transition: 0.7s all ease;
+}
+
+/* line 194, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.twitter:hover {
+  border-bottom: 100px solid #00aced;
+}
+
+/* line 198, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.youtube {
+  border-style: none;
+  border-bottom: 8px solid #bb0000;
+  transition: 0.7s all ease;
+}
+
+/* line 204, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.youtube:hover {
+  border-bottom: 100px solid #bb0000;
+}
+
+/* line 208, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.glimpses {
+  margin-top: 15px;
+}
+
+/* line 212, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.glimpse-image {
+  height: 400px;
+}
+
+/* line 216, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.image-back {
+  width: 100%;
+  background-image: url(about_new/slide1-969fe959e90fcb8196c6d748beda49e95ff059993d660dffc6b57ad7c88484d8.png);
+  height: 100%;
+  background-color: blue;
+}
+
+/* line 223, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.cd-section {
+  height: 100vh;
+}
+
+/* line 227, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.text-top {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: none;
+}
+
+/* lets venture */
+/* line 236, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.event-navigation {
+  margin-top: 30px;
+  height: 50px;
+  line-height: 50px;
+  background-color: gray;
+}
+
+/* line 243, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.event-navigation ul {
+  list-style-type: none;
+  list-type: none;
+}
+
+/* line 248, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.event-navigation li {
+  float: left;
+}
+
+/* line 252, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.event-navigation ul li a {
+  display: block;
+  line-height: 50px;
+  width: 150px;
+  text-align: center;
+  color: #ededed;
+  border-bottom: 2px solid #fff;
+  z-index: 999;
+  transition: all 1s ease;
+}
+
+/* line 263, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.event-navigation ul li a:hover {
+  color: #fff;
+  /*border-bottom: 2px solid orange;*/
+  z-index: 999;
+}
+
+/* line 269, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.events-sidebar {
+  color: #ededed;
+  background-color: #ededed;
+  height: 600px;
+  padding: 0px;
+}
+
+/* line 278, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.events-sidebar ul {
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+/* line 283, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.events-sidebar li {
+  text-decoration: none;
+}
+
+/* line 287, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.events-sidebar li a {
+  line-height: 50px;
+  display: block;
+  width: 150px;
+  height: 50px;
+  border-bottom: 2px solid #ededed;
+  transition: all 0.5s ease;
+  color: gray;
+  text-align: center;
+}
+
+/* line 298, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.events-sidebar li a:hover {
+  /*border-bottom: 2px solid orange;*/
+}
+
+/* line 302, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.tabbed {
+  list-style-type: none;
+}
+
+/* line 306, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.tabbed li {
+  float: left;
+}
+
+/* line 310, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.tabbed li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  width: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  border-bottom: 2px solid gray;
+  color: gray;
+  text-decoration: none;
+}
+
+/* line 323, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.tabbed li a:hover {
+  border-bottom: 2px solid orange;
+}
+
+/* line 327, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#reg-proc {
+  display: none;
+}
+
+/* line 331, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#contactdetails {
+  display: none;
+}
+
+/* line 335, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#rule {
+  display: none;
+}
+
+/* line 339, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.tabbed_active {
+  border-bottom: 2px solid orange;
+}
+
+/* line 343, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.under {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+/* line 350, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.over {
+  position: absolute;
+  left: 101px;
+  top: 10px;
+  z-index: -1;
+  margin-top: -14px;
+}
+
+/* line 358, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+html {
+  height: 100%;
+}
+
+/* line 361, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+body {
+  padding: 0;
+  font-family: 'open sans';
+  position: relative;
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 371, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.wrapper {
+  height: 100% !important;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 378, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 385, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.pointer {
+  color: #9b59b6;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+/* line 393, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.main {
+  float: left;
+  width: 100%;
+}
+
+/* line 399, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.main h1 {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  color: white;
+  margin: 0;
+}
+
+/* line 415, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.reload.bell {
+  font-size: 12px;
+  padding: 20px;
+  width: 45px;
+  height: 47px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+}
+
+/* line 426, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.reload.bell #notification {
+  font-size: 25px;
+  line-height: 140%;
+}
+
+/* line 430, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.clear {
+  width: auto;
+}
+
+/* line 433, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.credit {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: 410px;
+  clear: both;
+}
+
+/* line 440, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.credit a {
+  color: rgba(0, 0, 0, 0.85);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 447, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  padding: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+/* line 466, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.back:hover {
+  color: black;
+}
+
+/* line 470, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+header {
+  position: relative;
+  z-index: 10;
+}
+
+/* line 474, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.main section .page_container {
+  position: relative;
+  z-index: 3;
+}
+
+/* line 481, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.main section {
+  overflow: hidden;
+}
+
+/* line 485, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.main section > img {
+  position: absolute;
+  max-width: 100%;
+  z-index: 1;
+}
+
+/* line 493, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.main section.page1 h1 {
+  padding: 0;
+  margin-bottom: 15px;
+  font-size: 70px;
+  color: black;
+}
+
+/* line 500, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.main section.page1 h2 {
+  color: rgba(0, 0, 0, 0.85);
+  width: 435px;
+  line-height: 160%;
+}
+
+/* line 507, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.main section.page2 {
+  padding-top: 120px;
+  background: -150px;
+}
+
+/* line 511, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.main section.page2 > img {
+  position: absolute;
+  top: -300px;
+}
+
+/* line 517, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.main section.page2 .page_container {
+  overflow: hidden;
+}
+
+/* line 523, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.viewing-page-2 .back {
+  background: rgba(0, 0, 0, 0.25);
+  color: #FFF;
+}
+
+/* line 528, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+body.disabled-onepage-scroll .onepage-wrapper section {
+  min-height: 100%;
+  height: auto;
+}
+
+/* line 533, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container {
+  margin-top: 150px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 541, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+body.disabled-onepage-scroll section .page_container h1 {
+  font-size: 50px;
+}
+
+/* line 545, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns {
+  width: 100%;
+}
+
+/* line 550, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+body.disabled-onepage-scroll .main section.page1 > img {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+}
+
+/* line 556, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+body.disabled-onepage-scroll .main section > img {
+  position: relative;
+  max-width: 80%;
+  bottom: 0;
+}
+
+/* line 561, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+body.disabled-onepage-scroll code {
+  width: 95%;
+  margin: 0 auto 25px;
+  float: none;
+  overflow: hidden;
+}
+
+/* line 568, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+body.disabled-onepage-scroll .main section.page3 .page_container {
+  width: 90%;
+}
+
+/* line 5, /home/aayush/cogni16/app/assets/stylesheets/events.scss */
+/* line 574, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.event-navigation {
+  height: 50px;
+  line-height: 50px;
+  background-color: gray;
+}
+
+/* line 12, /home/aayush/cogni16/app/assets/stylesheets/events.scss */
+/* line 583, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.event-navigation ul {
+  list-style-type: none;
+  list-type: none;
+}
+
+/* line 17, /home/aayush/cogni16/app/assets/stylesheets/events.scss */
+/* line 589, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.event-navigation li {
+  float: left;
+  padding-left: 40px;
+}
+
+/* line 21, /home/aayush/cogni16/app/assets/stylesheets/events.scss */
+/* line 595, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.event-navigation ul li a {
+  display: block;
+  line-height: 50px;
+  width: 150px;
+  color: #ededed;
+  border-bottom: 2px solid orange;
+  z-index: 999;
+}
+
+/* line 32, /home/aayush/cogni16/app/assets/stylesheets/events.scss */
+/* line 38, /home/aayush/cogni16/app/assets/stylesheets/events.scss */
+/* line 610, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.events-sidebar {
+  color: #ededed;
+  background-color: #ededed;
+  height: 600px;
+  padding: 0px;
+}
+
+/* line 47, /home/aayush/cogni16/app/assets/stylesheets/events.scss */
+/* line 619, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.events-sidebar ul {
+  list-style-type: none;
+}
+
+/* line 52, /home/aayush/cogni16/app/assets/stylesheets/events.scss */
+/* line 625, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.events-sidebar li {
+  text-decoration: none;
+}
+
+/* line 56, /home/aayush/cogni16/app/assets/stylesheets/events.scss */
+/* line 630, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.events-sidebar li a {
+  line-height: 50px;
+  display: block;
+  width: 150px;
+  height: 50px;
+  border-bottom: 2px solid #ededed;
+  transition: all 1s ease;
+  color: gray;
+}
+
+/* line 67, /home/aayush/cogni16/app/assets/stylesheets/events.scss */
+/* line 71, /home/aayush/cogni16/app/assets/stylesheets/events.scss */
+/* line 645, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.tabbed {
+  list-style-type: none;
+}
+
+/* line 75, /home/aayush/cogni16/app/assets/stylesheets/events.scss */
+/* line 650, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.tabbed li {
+  float: left;
+}
+
+/* line 79, /home/aayush/cogni16/app/assets/stylesheets/events.scss */
+/* line 655, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.tabbed li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  width: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-bottom: 2px solid gray;
+  color: gray;
+  text-decoration: none;
+}
+
+/* line 667, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.imp {
+  padding: 50px;
+  padding-top: 250px;
+  padding-left: 0px;
+}
+
+/* line 673, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.label-image {
+  z-index: 1;
+  margin: 200px;
+  padding: 10px;
+  margin-left: 200px;
+}
+
+/* line 680, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.imp1 {
+  margin-top: -28px;
+}
+
+/* line 683, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#home-text {
+  margin-top: -18px;
+  font-size: 17px;
+  color: gray;
+  text-align: justify;
+}
+
+/* line 689, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.event-head {
+  color: white;
+  text-align: center;
+}
+
+/* ABOUT US NEW */
+/* line 695, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.next-page {
+  margin-top: 100px;
+}
+
+/* line 699, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#spp {
+  border: 1px solid #808285;
+  display: block;
+  width: 210px;
+  margin: 5px auto;
+  background-color: white;
+  color: #808285;
+  padding: 5px;
+  text-align: center;
+  float: left;
+  margin-left: 30px;
+}
+
+/* line 701, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+button#spp:hover {
+  color: white;
+  background-color: #27aae1;
+  border: 1px solid #27aae1;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* About New Designs */
+/* About Us New Styles */
+/* line 714, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.intro-text {
+  padding: 100px;
+  padding-top: 150px;
+  font-size: 18px;
+  text-align: justify;
+  color: gray;
+}
+
+/* line 722, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.about-header {
+  color: orange;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 21px;
+  text-align: center;
+}
+
+/* line 730, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.intro-image {
+  padding: 100px;
+  padding-top: 150px;
+}
+
+/* line 735, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.glimpses-title {
+  margin-top: 15px;
+  background-color: #333333;
+  height: 100px;
+}
+
+/* line 741, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.glimpses-title span {
+  margin-left: 40px;
+  font-size: 30px;
+  line-height: 100px;
+  color: #fff;
+}
+
+/* line 748, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.glimpses-social {
+  margin-top: 15px;
+  height: 100px;
+  background-color: #333333;
+}
+
+/* line 756, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.fb {
+  border-style: none;
+  border-bottom: 8px solid #3b5998;
+  transition: 0.7s all ease;
+}
+
+/* line 762, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.fb:hover {
+  border-bottom: 100px solid #3b5998;
+}
+
+/* line 766, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.gplus {
+  border-style: none;
+  border-bottom: 8px solid #d34836;
+  transition: 0.7s all ease;
+}
+
+/* line 772, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.gplus:hover {
+  border-bottom: 100px solid #d34836;
+}
+
+/* line 776, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.twitter {
+  border-style: none;
+  border-bottom: 8px solid #00aced;
+  transition: 0.7s all ease;
+}
+
+/* line 782, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.twitter:hover {
+  border-bottom: 100px solid #00aced;
+}
+
+/* line 786, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.youtube {
+  border-style: none;
+  border-bottom: 8px solid #bb0000;
+  transition: 0.7s all ease;
+}
+
+/* line 792, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.youtube:hover {
+  border-bottom: 100px solid #bb0000;
+}
+
+/* line 796, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.glimpses {
+  margin-top: 15px;
+}
+
+/* line 800, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.glimpse-image {
+  height: 400px;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
+  border-top: 5px solid white;
+  border-bottom: 10px solid white;
+}
+
+/* line 808, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.image-back {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 814, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.image-back-1 {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-image: url(about_new/slide1-969fe959e90fcb8196c6d748beda49e95ff059993d660dffc6b57ad7c88484d8.png);
+  background-size: cover;
+}
+
+/* line 821, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.image-back-2 {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-image: url(about_new/slide2-e6671b0c10b38635c706856c9d71e4ed74ee77b6f5e21a2cc9f39aee09a03b92.png);
+  background-size: cover;
+}
+
+/* line 829, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.image-back-3 {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-image: url(about_new/slide3-44df71b0a50677354d5c7705cecda4c6bd4e02fc7e9e4b8b60b6db93f1132d5e.png);
+  background-size: cover;
+}
+
+/* line 836, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.image-back-4 {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-image: url(about_new/slide4-9aab77a2abbf8e5bf613879fbbd297cdd5f8cc6574e5a27cb4d411345819216d.png);
+  background-size: cover;
+}
+
+/* line 843, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.image-back-5 {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-image: url(about_new/slide5-9937b6911bb55d2669ce5392adb664cd6173245d82078d73c69bbc908f285de9.png);
+  background-size: cover;
+}
+
+/* line 850, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.image-back-6 {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-image: url(about_new/slide6-96000caee2d47aa7948a5d900c3f27b78dd18c10f539b8dde71fa64163fc25db.png);
+  background-size: cover;
+}
+
+/* line 858, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.image-back-7 {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-image: url(about_new/slide7-e610d351305c9c8a9fa833593689a2da42a215818f00c0348b841ff784fe27d5.png);
+  background-size: cover;
+}
+
+/* line 866, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.cd-section {
+  height: 100vh;
+}
+
+/* line 871, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.second-row {
+  height: 250px;
+  margin-top: 10px;
+  border-left: 5px solid white;
+  border-top: 5px solid white;
+  border-bottom: 10px solid white;
+}
+
+/* line 880, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.image-back:hover {
+  transition: 2s all ease;
+  filter: blur(20px) grayscale(20%);
+  -webkit-filter: grayscale(100%);
+  /* Chrome, Safari, Opera */
+}
+
+/* line 888, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.float-box-1 {
+  margin-left: 300px;
+  margin-top: -440px;
+}
+
+/* line 892, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.text-top-1 {
+  z-index: 99;
+}
+
+/* line 898, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.floating-text-1 {
+  text-align: justify;
+  font-size: 17px;
+  color: white;
+  padding: 80px;
+  padding-left: 10px;
+  margin-top: -40px;
+}
+
+/* line 907, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+#myCanvas {
+  z-index: 5;
+  margin-top: 6px;
+  margin-left: 18px;
+}
+
+/* line 913, /home/hulksmash/cogni16/app/assets/stylesheets/static_pages.scss */
+.glimpses-line {
+  padding: 35px;
+  margin-left: -80px;
+}
+
+/*.about-image{
+      -webkit-animation-name: example;
+    -webkit-animation-duration: 5s;
+}*/
+@-webkit-keyframes example {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

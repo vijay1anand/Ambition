@@ -1,0 +1,34 @@
+.head1{
+    background-color: #d0181e;
+    height: auto;
+    width:25%;
+    margin-left: 37.5%;
+
+}
+body{
+    background-image: url("sky.jpg");
+}
+.sideu{
+    margin-left: 80%;
+}
+
+.side{
+    background-color:deepskyblue;
+    color:#3366FF;
+    float:right;
+    text-align:center;
+    width:350px;
+    margin-top: auto;
+    height:440px;
+    border:5px;
+    border-radius:0.5em;
+}
+.sty{
+
+    text-align: center;
+    color: azure;
+}
+.st {
+    margin-left: 80%;
+}
+

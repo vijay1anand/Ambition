@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .row:after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        html {
+            font-family: "Lucida Sans", sans-serif;
+        }
+        .header {
+            background-color: #9933cc;
+            color: #ffffff;
+            padding: 15px;
+        }
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color :#33b5e5;
+            color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        .menu li:hover {
+            background-color: #0099cc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>2nd Semester subjects</h1>
+</div>
+
+<div class="row">
+
+    <div class="col-4 menu">
+        <ul>
+             <li> <a href="sub.html">Data Structure </a></li>
+             <li><a href="sub.html">Calculus</a></li>
+            <li><a href="sub.html">Computer Organization</a></li>
+              <li><a href="sub.html">Basic Electronic Circuit</a></li></a>
+             <li><a href="sub.html">Intro to IT </a></li>
+             <li><a href="sub.html">Intro to CS </a></li>
+            <li>Home</li>
+        </ul>
+    </div>
+
+    <div class="col-7">
+        <h1><font size="+2"> CURRICULUM</font></h1>
+
+        <h1> Data Structure</h1>
+        <p><font size="+1">Course Contents:</font>
+            NUMBER SYSTEMS: Representations, signed, 1's complement, 2's complement, saturation and overflow in fixed point arithmetic.<br>
+            BOOLEAN ALGEBRA: Axioms and theorems, DeMorgan’s law, universal gate, duality, expression manipulation using axioms and theorems.<br>
+            COMBINATIONAL LOGIC: Introduction to switching algebra, canonical forms, two-level simplification, boolean cube, logic minimization using K-map method, QuineMcCluskey tabular method, minimization for product-of-sum form, minimization for sum-of-product form, multiplexers, demultiplexers, decoders, encoders, hazard free synthesis, Arithmetic circuits, adders, half adder, full adder, BCD adder, ripple carry adder, carry-lookahead adder, combinational multiplier.<br>
+            SEQUENTIAL LOGIC: Simple circuits with feedback, basic latches, clocks, R-S latch, master-slave latch, J-K flip flop, T flip-flop, D flip-flop, storage registers, shift register, ripple counter, synchronous counters, Finite State Machine (Moore/Mealy Machines), FSM with single/multiple inputs and single/multiple outputs etc.<br>
+            HARDWARE DESCRIPTION LANGUAGE: Programming and simulation, structural specification,<br>
+            behavioral specification, dataflow modelling, testbench, testing using test vectors, testing using waveforms, design of basic blocks to build larger circuits, case studies, adder, ALU, counters, shift registers, register bank, FSM design example etc.<br>
+        </p><p> <font size="+1">TEXT BOOK:</font>
+        Digital Fundamentals,10thEd, Floyd T L, Prentice Hall, 2009.</p>
+        <p>
+            <font size="+1"> REFERENCE BOOK:</font>
+            1) Digital Design-Principles and Practices, 4thEd, J F Wakerly, Prentice</p>
+        <h1> Discreate Mathemathics</h1>
+        <p>Course Contents: <br>
+            FOUNDATION: Propositional and predicate logic, logical equivalences, predicates and quantifiers, translation from language to logical expressions, nested quantifiers, set theory, set operations, set identities and functions, inverse and composition functions, graph of functions.<br>
+            NUMBER THEORY: Division operator, prime factorization, properties of prime numbers, prime number theorem, GCD and LCM, modular arithmetic and applications, sequences and summations.<br>
+            COUNTING: Permutation and combinations, pigeonhole principle, inclusion-exclusion principle, binomial theorem, Pascal identity and triangle.<br>
+            MATHEMATICAL REASONING and INDUCTION: Rules of inference, direct proof, proof by contradiction, proof by contrapositive, mathematical induction and second law of mathematical induction.<br>
+            RECURSION: Definition, recursive algorithm, recurrence relations, solving recurrence relations.<br>
+            RELATIONS: Relations and their properties, applications and representations, equivalence relations, partial ordering, Hasse diagram.<br>
+            GRAPHS: Introduction and terminology, representation, isomorphism, connectivity, Warshall‘s algorithm, Euler and Hamilton path, shortest path.<br>
+            TEXT</p>
+        <p><font size="+1"> Book:</font>Discrete Mathematics and its Application, 7th Ed, K. Rosen, Tata McGraw Hill, 2011.
+        </p><p>
+        <font size="+1"> REFERENCE BOOK:
+            1) Discrete Mathematical Structure, 4th Ed, B. Kolman, R.C. Busby and S. C. Ross, PHI, 2000.
+            2) Discrete Mathematics, Richard Johnsonbaugh, Prentice Hall, 2007.
+            3) Mathematics: A Discrete Introduction, 3rd Ed., Edward R. Scheinerman, Cengage Learning, 2006.
+            4) Mathematical Structure for Computer Science, 6th Ed, J. Gersting, Freeman, 2006</p>
+        <h1> Physics</h1>
+        <p>COORDINATE SYSTEM: Cartesian, cylindrical and spherical coordinates; unit vectors and their time derivatives.<br>
+            REVIEW OF PARTICLE DYNAMICS: Inertial and non-inertial frames of reference, centrifugal and coriolis forces; conservative force, work-energy theorem; centre of mass, conservation of momentum; collision in one and two dimensions. small oscillations, free, forced and damped oscillations.<br>
+            ATOMIC PHYSICS: Rutherford and Bohr's atomic model, quantum numbers, atomic spectra, energy levels.<br>
+            ELEMENTARY PARTICLES: Nuclear model, protons and neutrons, nuclear force, introduction of elementary particles.<br>
+            CONCEPTUAL FOUNDATION of MODERN PHYSICS: Electromagnetic waves, blackbody radiation, Planck’s law of radiation, photoelectric effect, wave-particle duality, Compton wavelength, de-Broglie wave, Heisenberg’s uncertainty principle, contribution of Dirac, Pauli, Schrodinger and Born in foundation of quantum mechanics, topics in Quantum Mechanics.<br>
+            INTRODUCTION TO APPLIED PHYSICS: A non-mathematical exposure to applied physics such as:<br>
+            pendulum, heat engine, transformer, optical microscope, electron microscope, scanning tunneling microscope, laser diode, photo detector, solar cells, transistors.<br></p>
+        <p>
+            <font size="+1"> TEXT BOOK:</font>
+            Concepts of Modern Physics. A.Beiser, Tata McGraw-Hill, New Delhi, 1995.</p>
+        <p>
+            <font size="+1"> REFERENCE BOOK:</font>
+            1) Quantum Physics of Atoms, Molecules, Solids, Nuclei and Particles, 2ndEd, R. Eisberg and R. Resnick, John-Wiley, 1985.
+            2) Quantum Mechanics: Theory and Applications 5thEd, AjoyGhatak, Macmillan, 2004.
+        </p>
+
+
+
+        <h1>C Programming </h1>
+        <p>Course contents:
+            INTRODUCTION TO PROGRAMMING: Programming methods, paradigms, problem solving techniques, algorithm development, flow charts.<br>
+            LINUX ENVIRONMENT: Editor, compiler, debugger.<br>
+            BASICS OF PROCEDURAL PROGRAMMING: Constants, variables, expressions, operators, assignment, basic input and output, built-in functions, program debugging.<br>
+            VARIABLES AND OPERATORS: Basic data types, precedence and order of evaluation, pointers, memory allocation of variables.<br>
+            CONTROL STRUCTURES: Selection statements, iteration statements.<br>
+            FUNCTIONS AND PROGRAM STRUCTURE: Return values, actual and formal parameters, parameter passing: call by value versus call by reference, external variables, scope rules, header files, and recursion.<br>
+            ARRAYS: Character arrays, one and two dimensional arrays; pointer arrays, command-line arguments.<br>
+            I/O: ASCII data files, file pointers, end-of-file.<br>
+            BASIC DATA STRUCTURES: Structures, defining new types, enumerations, dynamic memory allocation, dynamic arrays, linked lists and other pointer-based structures.<br></p>
+        <p>
+            <font size="+1"> TEXT BOOK :</font>
+            C How to Program, 6thEd, P Deitel and H Deitel, Prentice Hall of India, 2010.</p>
+        <p>
+            <font size="+1">REFERENCE BOOK:</font>
+            1) C programming language, 2ndEd, Kernighan, Brian W. & Ritchie, Dennis M, New Delhi.
+            Prentice Hall of India, 1998.
+            2) A Book on C, 4thEd, Kelley, A.L. and Pohl Ira, Pearson India, 2002
+            3) A Structured Programming Approach Using C, 1stEd.,Forouzan, Behrouz, Course
+            Technology, 2012.
+            4) Practical C Programming, 3rdEd, Oualline, Steve, Shroff Publishers, 2000.
+            5) C programming: The essentials for engineering and scientists, Brooks, David R. New
+            York. Springer, 1999.<br>
+            <br></p>
+
+        <h1>Spoken Written Communication </h1>
+        <p><font size="+1">Course Contents:</font>
+            Unit-I:<br>
+            Course Instructor should make an optimal use of cinema for increasing the students’ familiarity with English. Testing be done on the basis of the student’s comprehension of the plot and the ability of describe scenes from the film. Class room exercise of asking students to comment on the plot or scenes of a given film – not in writing but by standing before the entire class and speaking in English — be frequently carried out. The aim of this unit is to make the student feel confident about her/his ability to form sentence in English for discursive communication.<br>
+            Unit-II:<br>
+            Course Instructor should use audio tapes, Ted Lectures, radio news broadcast or celebrated speeches, etc for exposing the students’ to a ̳real time‘ and good spoken English. Class room tests be set to check the students’ ability to respond to their listening experience in writing. This will help the Course Instructor to continually assess the requirements of the students and provide corrective advise. Testing the writing skills of students will require setting several questions of very short composition tasks, from 50 words to 150 words. The topics chosen for the composition tasks should be selected from the topics covered in the classroom discussions or from the life on the campus.<br>
+            Unit-III:<br>
+            Students should be provided four to five extended samples of written English such as short stories or newspaper editorials for them to mark their difficulties – words, idioms, sentence structures, etc. This will help the students in
+            improving their ability to do focused reading of serious written literature. Testing of the reading comprehension skills be tested by giving them in advance of the test several passages for reading. The Course Instructor may select one or more of those seen passages’ for the examination purpose.<br>
+        </p><p> TEXT BOOK:<br>
+        Prism: Spoken and Written Communication, Prose & Poetry published by Orient Longman, 2008.<br>
+        Reading materials:<br>
+        The Bet – Anton Chekov<br>
+        Socrates and the Schoolmaster – F. L. Brayne<br>
+        An Astrologer‘s Day – R. K. Narayan<br>
+        The Gift of the Magi – O’ Henry<br>
+        With the Photographer – Stephen Leacock<br>
+        Speech on Indian Independence – Jawaharlal Nehru<br></p>
+    </div>
+    <div class="col-md-1">
+        <a>
+            <a href="#" <button class="waves-effect waves-light btn btn-sm" style="margin-right:-2px; background-color: #90a4ae; border: solid">Update</button></a></form>
+    </div>
+</div>
+</body>
+</html>

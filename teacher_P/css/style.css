@@ -1,0 +1,65 @@
+.head1{
+    background-color: #ff8600;
+    height: auto;
+    width:25%;
+    margin-left: 37.5%;
+
+}
+body{
+    background-image:url('../../css/sky.jpg');
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+    flex: 1 0 auto;
+}
+footer{
+    margin-top: 90%;
+}
+#back12{
+    background-image:url('sun.jpg');
+    height: 450px;
+    margin-left: -100px;
+}
+.faculty-image{
+
+    height: 240px;
+    width: 245px;
+}
+.faculty-left1{
+    margin-top: 35px;
+    margin-left: 210px;
+}
+.faculty-left{
+    margin-top: 15px;
+    margin-left: 210px;
+}
+
+.faculty-right{
+    margin-right:114px;
+    margin-top: 35px;
+    height: 240px;
+    width: 245px;
+}
+.faculty-right1{
+    margin-right:114px;
+    margin-top: 55px;
+    height: 240px;
+    width: 245px;
+}
+.faculty-center{
+    margin-left: 97px;
+    margin-top: 35px;
+}
+.slider-back43{
+    background-image: url("../../css/beach.jpg");
+}
+.events{
+    width:500px;
+    height:300px;
+}
+.namevent{
+    color: cornsilk;
+    margin-left:-400px;
+}
